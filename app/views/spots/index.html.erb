@@ -2,17 +2,12 @@
 <div class="title-contents">
   <main class="main">
     <div class="inner">
-      <%# ログインしているときは以下を表示する %>
-      <%# <% if user_signed_in? %> 
-        <div class="greeting">
-          <%= link_to "ユーザーさん", root_path, class: :greeting__link %>
-        </div>
+      <div class="main-topics">
         <h1>・Topics</h1>
-      <%# <% end %> 
-      <%# // ログインしているときは上記を表示する %>
+      </div>
       <div class="card__wrapper">
-        <%# 投稿機能実装後、部分テンプレートでプロトタイプ投稿一覧を表示する %>
-        <%# <%= render partial: 'prototype', collection: @prototypes %> 
+        <%# 投稿機能実装後、部分テンプレート投稿一覧を表示する %>
+        <%# <%= render partial: '#', collection: '#' %> 
       </div>
     </div>
   </main>
