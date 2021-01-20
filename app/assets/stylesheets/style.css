@@ -37,7 +37,7 @@ a {
 /* ヘッダー */
 
 .header {
-  background-color: mediumaquamarine;
+  background-color: #f1f8fe;
   padding: 20px 0;
 
 }
@@ -53,6 +53,16 @@ a {
 .logo {
   width: 250px;
 }
+
+.greeting{
+  margin-bottom: 20px;
+}
+.greeting__link{
+  font-size: 25px;
+  color: seagreen;
+  text-decoration: none;
+}
+
 .nav__btn{
   display: inline-block;
   padding: 0.4em 1.6em;
@@ -122,14 +132,6 @@ a {
 }
 
 /* メイン */
-.greeting{
-  margin-bottom: 20px;
-}
-.greeting__link{
-  font-size: 25px;
-  color: #f5f5f5;
-  text-decoration: none;
-}
 .page-heading {
   font-size: 30px;
   margin-bottom: 28px;
