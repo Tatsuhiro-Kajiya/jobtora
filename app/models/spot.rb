@@ -1,10 +1,10 @@
 class Spot < ApplicationRecord
   with_options presence: true do
     validates :name
-    validates :genre_id
-    validates :place_id
+    validates :genre_id, numericality: { other_than: 0 }
+    validates :place_id, numericality: { other_than: 0 }
     validates :explanation
-    validates :wifi_id
+    validates :wifi_id, numericality: { other_than: 0 }
     validates :image
   end
 
